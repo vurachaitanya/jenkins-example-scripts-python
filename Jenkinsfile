@@ -4,7 +4,7 @@ pipeline {
     stage('version') {
       steps {
         sh 'python3 --version'
-        sh ' top'
+        sh 'ps -U 502'
       }
     }
     stage('hello') {
