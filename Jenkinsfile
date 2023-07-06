@@ -4,7 +4,7 @@ pipeline {
     stage('version') {
       steps {
         sh 'python3 --version'
-        sh ' hostname'
+        sh ' top'
       }
     }
     stage('hello') {
